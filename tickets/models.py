@@ -18,7 +18,6 @@ class Departament(TimeModel):
     def __unicode__(self):
         return u"{0} {1} {2}".format(self.name, self.created, self.modified)
 
-
     class Meta:
         ordering = ['-id']
         verbose_name = _("Departament")
