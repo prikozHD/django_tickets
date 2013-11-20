@@ -140,6 +140,9 @@ INSTALLED_APPS = (
     'django.contrib.admin',
 
     'tickets',
+
+    'south',
+
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

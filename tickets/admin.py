@@ -4,4 +4,9 @@ from django.contrib import admin
 from models import Departament
 
 
-admin.site.register(Departament)
+class AdminDepartament(admin.ModelAdmin):
+    search_fields = ['locale', 'name']
+    list_filter = ['locale', 'name']
+
+
+admin.site.register(Departament, AdminDepartament)
