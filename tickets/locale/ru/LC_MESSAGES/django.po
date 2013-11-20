@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-21 01:27+0200\n"
+"POT-Creation-Date: 2013-11-21 01:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,18 +27,32 @@ msgstr "Создано"
 msgid "Modified"
 msgstr "Изменено"
 
-#: models.py:17 models.py:27
-msgid "Departament"
-msgstr "Отдел"
+#: models.py:17
+#, fuzzy
+msgid "Departament name"
+msgstr "Название Отдела"
 
 #: models.py:18
-msgid "E-mail"
-msgstr "E-mail"
+#, fuzzy
+msgid "Departament E-mail"
+msgstr "E-mail Отдела"
 
 #: models.py:19
 msgid "Departament description"
 msgstr "Описание отдела"
 
+#: models.py:20
+#, fuzzy
+msgid "Departament Locale"
+msgstr "Локаль Отдела"
+
+#: models.py:27
+msgid "Departament"
+msgstr "Отдел"
+
 #: models.py:28
 msgid "Departaments"
 msgstr "Отделы"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
